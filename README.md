@@ -9,19 +9,21 @@ First install the following:
 ## Git Instructions
 
 To get the repository on your host machine:
-  `git clone` 
+
+    git clone https://github.com/drolnick95/MLBPredictor.git 
 
 To add an upstream repo:
 
-  git remote add upstream
+    git remote add upstream https://github.com/drolnick95/MLBPredictor.git
 
 To pull updates:
 
-  git fetch upstream
-  git merge upstream/master
+    git fetch upstream
+    git merge upstream/master
 
 To push updates:
-git add .
-git commit -m "message for commit"
-git push origin master
+
+    git add .
+    git commit -m "message for commit"
+    git push origin master
 
