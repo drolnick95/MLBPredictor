@@ -4,17 +4,21 @@ of MLB games(http://scikit-learn.org/). The intention is to use a subervised cla
 predictors to choose outcomes for games.
 
 First install the following: 
-conda install scikit-learn matplotlib
+
+  conda install scikit-learn matplotlib
+## Git Instructions
 
 To get the repository on your host machine:
-git clone 
+  `git clone` 
 
 To add an upstream repo:
-git remote add upstream
+
+  git remote add upstream
 
 To pull updates:
-git fetch upstream
-git merge upstream/master
+
+  git fetch upstream
+  git merge upstream/master
 
 To push updates:
 git add .
