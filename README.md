@@ -5,7 +5,7 @@ predictors to choose outcomes for games.
 
 First install the following: 
 
-  conda install scikit-learn matplotlib
+    conda install scikit-learn matplotlib
 ## Git Instructions
 
 To get the repository on your host machine:
