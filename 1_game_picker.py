@@ -22,7 +22,7 @@ def run_classifier(clf, X, Y):
 
 def extract_labels(Arr):
     #TODO take the labels out of the downloaded CSV, return an array of labels
-
+    
 def extract_metrics (Arr):
     #TODO extract data that we think will be sufficiently predictive
     # Return 2D array of statistics
@@ -30,7 +30,20 @@ def extract_metrics (Arr):
 
 def load_data:
     #TODO Extract data from CSV and put in 2D array
-
+    f = open('backtest.csv', 'r')
+    lines =f.readlines()
+    f.close()
+    
+    g = {}
+    for line in lines:
+        line = line.strip().split(',')
+        g.append(line.split(','))
+    WIDTH = len(batting[0]) - SKIP_COLUMNS
+    X = scipy.zeros((len(batting), WIDTH))
+    games = nump.array(X)
+    games[games==''] = '0'
+    return X
+    
 def main ():
     #TODO Pick a type of classifier, run classifier on extracted data   
     run_classifier(clf, X, Y)
